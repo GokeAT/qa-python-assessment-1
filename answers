@@ -1,0 +1,65 @@
+
+def one(input1,input2):
+    if len(input1) > len(input2):
+        print (input1)
+        return input1
+    elif len(input2) > len(input1):
+        print (input2)
+        return input2
+    else:
+        print (input1 + " " +input2)
+        return input1 + " " +input2
+____________________________________________________
+
+def two(arg1):
+    if arg1%3 == 0 and arg1%5 == 0:
+        print ("fizzbuzz")
+        return "fizzbuzz"
+    elif arg1%3 == 0:
+        print ("fizz")
+        return "fizz"
+    elif arg1%5 == 0:
+        print ("buzz")
+        return "buzz"
+    else:
+        print ("null")
+        return "null"
+
+____________________________________________________
+
+def three(userinput):
+    countvowel = 0
+    vowels = ["A", "a","E","e","I","i","O","o","U","u"]
+    for char in userinput:
+        if char in vowels:
+            countvowel = countvowel + 1
+    print (countvowel)
+    return countvowel
+  
+ ______________________________________________________
+ 
+ def four(userinput):
+    if userinput.find("i") < userinput.find("e"):
+        if userinput.find("c") < userinput.find("i"):
+            print ("False")
+            return False
+        else:
+            print("True")
+            return True
+    elif userinput.find("e") < userinput.find("i"):
+        if userinput.find("c") < userinput.find("e"):
+            print ("True")
+            return True
+        else:
+            print ("False")
+            return False
+___________________________________________________
+
+def five(userinput):
+    answer = 1
+    for i in range(1,userinput+1):
+        answer = answer*i
+    print (answer)
+    return answer
+
+___________________________________________________
