@@ -77,3 +77,20 @@ def six(word,number,letter):
         return False
 ____________________________________________________
 
+def seven(inputString, letter):
+    inputString.split()
+    if letter in inputString:
+        inputString.find(letter)
+        print (inputString.find(letter)+1)
+        return inputString.find(letter)
+    elif letter.upper() in inputString:
+        inputString.find(letter)
+        print (inputString.find(letter)+1)
+        return inputString.find(letter)
+    else:
+        print ("letter not in string")
+        return -1
+
+
+
+
