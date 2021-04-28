@@ -63,3 +63,17 @@ def five(userinput):
     return answer
 
 ___________________________________________________
+
+def six(word,number,letter):
+    if number < len(word):
+        if word[number-1] == letter:
+            print ("True")
+            return True
+        else:
+            print ("False")
+            return False
+    else:
+        print("False")
+        return False
+____________________________________________________
+
